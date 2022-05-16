@@ -1,0 +1,122 @@
+/* bigger tablet or small pc: more than 1024  */
+@media only screen and (max-width: 1200px) {
+    
+    .header-text-box  {
+        width: 100%; 
+        padding: 2%;
+    }
+    
+    .main-nav { 
+        padding: 2%;
+        font-size: 100%;
+    }
+    
+    .long-copy {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+/* tablet to big tablet: 768 - 1023 */
+@media only screen and (max-width: 1023px) {
+    
+    body { font-size: 18px; }
+    
+    .section { padding: 60px 0; }
+    
+    .main-nav li { margin-left: 20px; }
+    
+    .app-box:last-child {
+        margin-top: 40px; 
+    }
+    .app-step {
+        margin-bottom: 20px;
+    }
+    
+    .app-screen { 
+        width: 50%; 
+        margin-bottom: 25px;
+    }
+    
+    .icon-small { 
+        width: 15px; 
+        margin-right: 5px;
+    }
+    
+    .plan-price { font-size: 200%; }
+    
+    .signup-box { width: 90%;}
+    
+    .contact-form {width: 80%; }
+
+}
+
+/* phone to small tablet: 481 - 767 */
+@media only screen and (max-width: 767px) {
+    
+    body { font-size: 16px; }
+    
+    .section { padding: 25px 0; }
+    
+    .row,
+    .header-text-box { padding: 0 2% }
+    
+    .col { 
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+
+    h1 { font-size: 180%;  }
+    h2 { font-size: 130%;  }
+
+    .main-nav { display: none; }
+    
+    .long-copy { 
+        width: 100%; 
+        margin-left: 0;
+    }
+    
+    /* Assignment 07 2 */
+    .app-box:first-child { padding-right: 0; }
+    .app-box:first-child div { text-align: center; }
+    
+    .app-screen { width: 40%; }
+
+    .app-step div {
+        width: 40px;
+        height: 40px;
+        padding: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+/* small phone: 0 - 480 */
+@media only screen and (max-width: 480px) {
+    
+    section { padding: 15px; }
+    
+    /* Assignment 07 1 */
+    .header-text-box div { text-align: center; }
+    .header-text-box div a { margin-bottom: 10px; }
+    
+    .contact-form { width: 100%; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
